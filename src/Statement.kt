@@ -57,4 +57,21 @@ fun main(args: Array<String>) {
         if (Math.pow(ary[2], 2.0) <= Math.pow(ary[0], 2.0) + Math.pow(ary[1], 2.0)) "YES"
         else "NO"
     )
+
+    //As the first spot is already taken, the program should allocate the second spot and print: Blue car parked on the spot 2. The color should match the user's input.
+//    val scanner = Scanner(System.`in`)
+    val command = scanner.next()
+    if (command == "park") {
+        val commandLine = scanner.nextLine().split(" ")
+        println(commandLine[2] + " car parked on the spot 2.")
+    } else if (command == "leave") {
+        val num = scanner.nextInt()
+        print(
+            if (num == 1) {
+                "Spot 1 is free."
+            } else {
+                "There is no car in the spot 2."
+            }
+        )
+    }
 }
