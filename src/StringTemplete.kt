@@ -23,4 +23,13 @@ fun main() {
     val str = scanner.nextLine()
     val pos = scanner.nextInt()
     println("Symbol # ${pos} of the string \"${str}\" is '${str[pos - 1]}'")
+
+    val int: Int = Int.MAX_VALUE
+    val long: Long = Long.MAX_VALUE
+    val short: Short = Short.MAX_VALUE
+    val byte: Byte = Byte.MAX_VALUE
+
+    println(Byte.SIZE_BITS)
+    println(Byte.MIN_VALUE)
+    println(Byte.MAX_VALUE)
 }
