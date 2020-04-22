@@ -1,3 +1,5 @@
+package jetbrains_academy
+
 import java.util.*
 
 /**
@@ -90,7 +92,7 @@ fun main() {
                     println("Sorry, parking lot is not created.")
                 } else {
                     spot[str[1].toInt() - 1].alloc = false
-                    println("Spot ${str[1]} is free.")
+                    println("jetbrains_academy.Spot ${str[1]} is free.")
                 }
             }
             "exit" -> {

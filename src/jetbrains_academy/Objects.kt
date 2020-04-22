@@ -1,3 +1,5 @@
+package jetbrains_academy
+
 fun main() {
     val input = readLine()!!
     // write code here

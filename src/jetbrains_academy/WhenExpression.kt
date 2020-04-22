@@ -1,3 +1,5 @@
+package jetbrains_academy
+
 import java.util.*
 import kotlin.math.pow
 import kotlin.math.sqrt

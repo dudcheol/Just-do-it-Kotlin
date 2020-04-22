@@ -1,3 +1,5 @@
+package jetbrains_academy
+
 import java.util.*
 
 fun main(args: Array<String>) {
@@ -68,7 +70,7 @@ fun main(args: Array<String>) {
         val num = scanner.nextInt()
         print(
             if (num == 1) {
-                "Spot 1 is free."
+                "jetbrains_academy.Spot 1 is free."
             } else {
                 "There is no car in the spot 2."
             }

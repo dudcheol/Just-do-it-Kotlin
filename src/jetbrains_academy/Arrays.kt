@@ -1,3 +1,5 @@
+package jetbrains_academy
+
 fun main() {
     // 첫 번째 요소와 마지막 요소를 교체하십시오
     val numbers = intArrayOf(1, 2, 3, 4, 5)

@@ -1,3 +1,5 @@
+package jetbrains_academy
+
 class Plane {
     val canFly: Boolean = true
     var family: String = "Unknown" // 할당 가능
@@ -24,7 +26,8 @@ fun main() {
         return p
     }
 
-    fun createPoint2(x: Int, y: Int, z: Int): Point3D = Point3D().also {
+    fun createPoint2(x: Int, y: Int, z: Int): Point3D = Point3D()
+        .also {
         it.x = x
         it.y = y
         it.z = z

@@ -1,3 +1,5 @@
+package jetbrains_academy
+
 open class Wood(val age: Int) {
     fun getWoodInfo(): String {
         return "age $age"

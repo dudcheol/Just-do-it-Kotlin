@@ -1,3 +1,5 @@
+package jetbrains_academy
+
 import java.util.Scanner
 
 //do not change this data class

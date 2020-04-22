@@ -1,3 +1,5 @@
+package jetbrains_academy
+
 class Application(val name: String) {
 
     // write the run method here

@@ -1,3 +1,5 @@
+package jetbrains_academy
+
 import java.util.*
 import kotlin.collections.HashSet
 
